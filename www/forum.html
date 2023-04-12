@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Task Discussion Forum</title>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="forum.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <td colspan=3>
+      <a href="index.html" id="back-button">Back</a>
+      <div id="Welcome">Welcome back (username)</div>
+      <a href="logout.php" id="logout-link">Logout</a>
+    </td>
+  </div>
+  <div class="chatbox">
+    <h1>Task Discussion Forum</h1>
+    <div id="Taskname">(taskname)</div>
+    <div class="message-container" id="message">
+    </div>
+    <!-- <div class="message-form"> -->
+    <!-- <input type="text" id="post-content" placeholder="Type your message...">
+      <button type="submit" id="submit-post">Send</button> -->
+    <div class="message-form">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10">
+            <input type="text" class="form-control" id="post-content" placeholder="Type your message...">
+          </div>
+          <div class="col-md-2">
+            <button type="submit" class="btn btn-primary" id="submit-post">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="forum.js"></script>
+</body>
+
+</html>

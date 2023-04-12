@@ -1,0 +1,21 @@
+<!-- require_once '_route.php';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+  $taskId = $_POST['task_id'];
+  $postContent = $_POST['post_content'];
+  $userId = getUserId(); // Function to get the current user's ID
+
+  try {
+    $stmt = $db->prepare('INSERT INTO posts (todo_item_id, post_content, post_by) VALUES (:task_id, :post_content, :user_id)');
+    $stmt->bindParam(':task_id', $taskId);
+    $stmt->bindParam(':post_content', $postContent);
+    $stmt->bindParam(':user_id', $userId);
+    $stmt->execute();
+    http_response_code(200);
+    echo 'Post created successfully';
+  } catch (PDOException $e) {
+    error_log('PDOException - ' . $e->getMessage(), 0);
+    http_response_code(500);
+    die('Error creating post');
+  }
+} -->

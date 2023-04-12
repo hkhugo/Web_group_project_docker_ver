@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TODO List App</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <td colspan=2>
+            <div id="Welcome">Welcome back (username)</div>
+            <a href="logout.php" id="logout-link">Logout</a>
+        </td>
+    </div>
+
+    <div class="container">
+        <h1>TODO List</h1>
+        <form id="todo-form">
+            <input type="text" placeholder="Add Task" id="task-name" name="task-name">
+            <input type="text" placeholder="Add Details" id="task-details" name="task-details">
+            <button id="add-task-button">Add</button>
+        </form>
+        <ul class="todo-list" id="task-list">
+        </ul>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
