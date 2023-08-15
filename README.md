@@ -1,12 +1,14 @@
 # Web_group_project_docker version 
+Web_group_project with Apache, MySql 8.0, PhpMyAdmin and Php
 
 ## Docker Desktop  
 ---------------------------------------------------------------
 Download and install Docker Desktop
 
-[Docker Desktop](https://www.docker.com/products/docker-desktop/)  
+[Docker Desktop](https://www.docker.com/products/docker-desktop/) 
+
+ ##Guideline
 ---------------------------------------------------------------
-Web_group_project with Apache, MySql 8.0, PhpMyAdmin and Php
 
 First, create the docker-compose file (e.g. similar to the one in /ref folder).
 
