@@ -23,4 +23,6 @@ Open website(index.php) [http://localhost:8001](http://localhost:8001)
 
 ## Run mysql client:
 ---------------------------------------------------------------
-`docker-compose exec db mysql -u root -p` 
+```
+docker-compose exec db mysql -u root -p
+```
